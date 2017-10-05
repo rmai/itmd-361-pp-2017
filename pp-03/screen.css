@@ -58,6 +58,20 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 @media screen and (min-width: 600px) {
+  #three {
+    display: flex;
+    flex: 2 100%;
+  }
+
+  #two {
+    display: flex;
+    flex: 1;
+  }
+
+  #one {
+    display: flex;
+    flex: 1;
+  }
 
 }
 
