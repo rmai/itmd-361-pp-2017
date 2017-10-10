@@ -61,18 +61,15 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   #three {
     display: flex;
     flex: 2 100%;
+    height: 100vw;
   }
 
-  #two {
-    display: flex;
-    flex: 1;
-  }
-
+  #two,
   #one {
     display: flex;
-    flex: 1;
+    flex: 1 50%;
+    height: 40vw;
   }
-
 }
 
 @media screen and (min-width: 800px) {
