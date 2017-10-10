@@ -35,8 +35,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 #three,
 #two,
 #one {
-  height: 15vw;
-  width: 15vw;
+  height: 33.33vw;
+  flex: 33.33;
 }
 
 #three {
