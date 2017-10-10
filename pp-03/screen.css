@@ -76,19 +76,11 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 
 @media screen and (min-width: 800px) {
-  #three {
-    display: flex;
-    flex: 1 100%;
-  }
-
-  #two {
-    display: flex;
-    flex: 1 100%;
-  }
-
+  #three,
+  #two,
   #one {
+    height: 33.33vw;
     display: flex;
-    flex: 1 100%;
+    flex: 1 33.33%;
   }
-
 }
