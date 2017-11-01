@@ -1,5 +1,3 @@
-
-
 //  1. Correct the variable scope so that the console.log call
 //  outputs the correct value for x (5) even after double(6) is
 //  called:
@@ -40,7 +38,7 @@ function arrayEach(array, func) {
   }
 }
 
-arrayEach(['red','green','blue'], console.log);
+arrayEach(['red' , 'green' , 'blue'] , console.log);
 
 console.log(i); // should be 'undefined', not 3
 
@@ -48,8 +46,12 @@ console.log(i); // should be 'undefined', not 3
 //  variable x declared on line 5 above. Write your explanation
 //  as JavaScript comments.
 
+// That is because var x = 5 is not in the function addTwo. Having var x = 5
+// on top of the function makes it a global variable and the x inside the
+// function makes in a local variable.
+
 function addTwo(x) {
-  x = x + 2; //
+  var x = x + 2; //
   return x;
 }
 
