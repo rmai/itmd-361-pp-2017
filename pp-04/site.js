@@ -32,8 +32,9 @@ console.log('The value of x is:', x, 'It should be 5.');
 
 //  3. Correct this function so that there is no i variable in
 //  the global scope:
-
+var i;
 function arrayEach(array, func) {
+  var i = 0;
   for (i = 0; i < array.length; i++) {
     func(array[i]);
   }
