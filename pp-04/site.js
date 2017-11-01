@@ -1,3 +1,5 @@
+
+
 //  1. Correct the variable scope so that the console.log call
 //  outputs the correct value for x (5) even after double(6) is
 //  called:
@@ -5,7 +7,7 @@
 var x = 5;
 
 function double(num) {
-  x = num * 2;
+  var x = num * 2;
   return x;
 }
 
@@ -39,7 +41,7 @@ function arrayEach(array, func) {
 
 arrayEach(['red','green','blue'], console.log);
 
-console.log((typeof(i)); // should be 'undefined', not 3
+console.log(i); // should be 'undefined', not 3
 
 //  4. Explain why this function does not modify the global
 //  variable x declared on line 5 above. Write your explanation
