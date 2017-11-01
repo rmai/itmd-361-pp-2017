@@ -51,7 +51,7 @@ console.log(i); // should be 'undefined', not 3
 // function makes in a local variable.
 
 function addTwo(x) {
-  var x = x + 2; //
+  x = x + 2; //
   return x;
 }
 
