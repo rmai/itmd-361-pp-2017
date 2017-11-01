@@ -3,7 +3,6 @@
 //  called:
 
 var x = 5;
-
 function double(num) {
   var x = num * 2;
   return x;
