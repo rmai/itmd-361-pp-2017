@@ -17,7 +17,16 @@ console.log('The value of x is:', x, 'It should be 5.');
 //  namespace (e.g., neither its variables nor the double
 //  function can be accessed via the `window` global object,
 //  like `window.x`):
+(function(){
+  var x = 5;
+  function double(num) {
+    var x = num * 2;
+    return x;
+  }
 
+  double(6);
+  console.log('The value of x is', x, 'It should be 5.');
+})();
 
 //  3. Correct this function so that there is no i variable in
 //  the global scope:
@@ -30,14 +39,14 @@ function arrayEach(array, func) {
 
 arrayEach(['red','green','blue'], console.log);
 
-console.log(i) // should be 'undefined', not 3
+console.log((typeof(i)); // should be 'undefined', not 3
 
 //  4. Explain why this function does not modify the global
 //  variable x declared on line 5 above. Write your explanation
 //  as JavaScript comments.
 
 function addTwo(x) {
-  x = x + 2;
+  x = x + 2; //
   return x;
 }
 
