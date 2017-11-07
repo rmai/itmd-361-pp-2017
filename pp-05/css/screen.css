@@ -28,3 +28,6 @@ body {
 #ringDoorbell {
   cursor: pointer;
 }
+#ringDoorbell:hover {
+ color: red;
+}
