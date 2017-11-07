@@ -6,7 +6,6 @@ correct them so that all users, whether or not they have JavaScript, can hear th
 * Task One: Your first task, then, is to improve the semantics and text content of the page for users
 without JavaScript. What HTML do you need to write so that JavaScript-less users receive a player to
 hear the doorbell sound?
-<audio src="media/doorbell.mp3" controls="controls" />
 
 * Task Two: Your second task is, via the DOM, to swap out that HTML with a simpler structure that
 presents a `Ring the Doorbell` control to users with JavaScript--much like the original contents of
