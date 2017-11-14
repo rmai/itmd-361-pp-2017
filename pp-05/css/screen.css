@@ -25,9 +25,9 @@ body {
 
 
 /* ===== STATE STYLES ===== */
-#ringDoorbell {
+#doorbell {
   cursor: pointer;
 }
-#ringDoorbell:hover {
+#doorbell:hover {
  color: red;
 }
